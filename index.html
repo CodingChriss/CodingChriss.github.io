@@ -12,13 +12,20 @@
 	*{
 		margin: 0px;
 		padding: 0px; 
-	}	
+	}
+	
+	@media screen and (max-width: 700px), screen and (orientation: portrait) {
+		.header {
+			height: 10em;
+		}
+	}
+	
 	</style>
 	<link href='style.css' rel='stylesheet' type='text/css' async>
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 </head>
 <body style="background: #F1F1F1; overflow: show;">
-	<header style="height: 4em; width: 100%; background-color: #03a9f4; z-index: 100; box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28); position: fixed; z-index: 100;">
+	<header class="header" style="height: 4em; width: 100%; background-color: #03a9f4; z-index: 100; box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28); position: fixed; z-index: 100;">
 		<img src="menu.png" class="menubutton" id="menubutton" onclick="menushow();" style="position: relative; top: -8px; padding-left: 2px; cursor: pointer;">
 		<a><img src="Logo.png" style="-webkit-transform:translateX(-50%); transform:translateX(-50%); left: 50%; position: relative; height: 64px; cursor: pointer;"></a>
 		
