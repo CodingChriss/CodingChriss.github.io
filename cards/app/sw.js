@@ -7,12 +7,12 @@ e.waitUntil(
 caches.open('Sergeantmax').then(function(cache) {
 return cache.addAll([
 '/cards/app/',
-'/index.html',
-'/style.css',
+'/cards/app/index.html',
+'/cards/app/style.css',
 '/cards/app/shadow.css',
-'/script.js',
-'/twitter.png',
-'/facebook.png'
+'/cards/app/script.js',
+'/cards/app/twitter.png',
+'/cards/app/facebook.png'
 ]);
 })
 );
