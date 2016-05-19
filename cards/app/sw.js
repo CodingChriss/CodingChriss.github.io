@@ -6,7 +6,6 @@ self.addEventListener('install', function(e) {
 e.waitUntil(
 caches.open('Sergeantmax').then(function(cache) {
 return cache.addAll([
-'/cards/app/',
 '/cards/app/index.html',
 '/cards/app/style.css',
 '/cards/app/shadow.css',
