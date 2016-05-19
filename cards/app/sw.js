@@ -9,7 +9,7 @@ return cache.addAll([
 '/cards/app/',
 '/index.html',
 '/style.css',
-'/shadow.css',
+'/cards/app/shadow.css',
 '/script.js',
 '/twitter.png',
 '/facebook.png'
